@@ -1,0 +1,55 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav-avatar {
+    display: none;
+  }
+  .box {
+    padding-top: 40px;
+  }
+  .centered {
+    top: 35%;
+    left: 35%;
+  }
+
+  .primary {
+    border-top: none;
+  }
+  .goals {
+    border-right: solid blue 10px;
+    border-top: none;
+  }
+  .muc-tieu_1 {
+    border-top: solid blue 10px;
+  }
+  .goal,
+  .uu-tien,
+  .in-scopes,
+  .member {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .flag,
+  .user,
+  .dau-hoi {
+    text-align: center;
+  }
+  .user,
+  .dau-hoi {
+    font-size: 30px;
+  }
+  .muc-tieu {
+    height: auto;
+  }
+  .goals {
+    height: auto;
+  }
+  .member {
+    grid-template-columns: 100%;
+    padding-left: 15px;
+  }
+  .icon-user {
+    justify-items: center;
+  }
+  .uu-tien {
+    padding-left: 15px;
+  }
+}

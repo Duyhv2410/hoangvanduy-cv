@@ -1,0 +1,99 @@
+@media screen and (max-width: 600px) {
+  .centered {
+    top: 25%;
+    left: 25%;
+  }
+  .link-thong-tin {
+    display: block;
+    font-weight: 500;
+  }
+  .box {
+    display: none;
+  }
+  #personal-info,
+  #target {
+    padding: 40px 20px;
+    margin-bottom: 0px;
+  }
+  #personal-info {
+    margin-bottom: 25px;
+  }
+  .link-thong-tin {
+    text-align: left;
+  }
+  .top {
+    padding: 10px 30px;
+    border-right: none;
+  }
+  .nav-avatar,
+  .footer-conten {
+    display: none;
+  }
+  .footer-icon {
+    font-size: 50px;
+  }
+  .container-footer {
+    grid-template-columns: 100px 100px 100px;
+    gap: 0px;
+  }
+  .chung-chi {
+    display: block;
+  }
+  .img-chung-chi {
+    width: 100%;
+  }
+  .chung-chi_1,
+  .chung-chi_2,
+  .chung-chi_3 {
+    padding: 20px 0px;
+  }
+  .lap-trinh-web {
+    float: none;
+  }
+  .chung-chi_2 {
+    border-left: none;
+    border-top: 1px solid orange;
+  }
+  .primary {
+    border-top: none;
+  }
+  .goals {
+    border-right: solid blue 10px;
+    border-top: none;
+  }
+  .muc-tieu_1 {
+    border-top: solid blue 10px;
+  }
+  .goal,
+  .uu-tien,
+  .in-scopes,
+  .member {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .flag,
+  .user,
+  .dau-hoi {
+    text-align: center;
+  }
+  .user,
+  .dau-hoi {
+    font-size: 30px;
+  }
+  .muc-tieu {
+    height: auto;
+  }
+  .goals {
+    height: auto;
+  }
+  .member {
+    grid-template-columns: 100%;
+    padding-left: 15px;
+  }
+  .icon-user {
+    justify-items: center;
+  }
+  .uu-tien {
+    padding-left: 15px;
+  }
+}

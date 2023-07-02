@@ -263,6 +263,9 @@ ul {
 .section-conten {
   grid-column: 1 / span2;
 }
+.english {
+  margin-top: 10px;
+}
 /* CHUNG CHI - GIAI THUONG */
 
 section > .container {
